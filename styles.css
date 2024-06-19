@@ -1,0 +1,113 @@
+.post {
+    
+    width: 500px;
+    align-items: center;
+    background-color: white;
+    margin: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: lightgrey;
+    align-items: center;
+}
+.title {
+
+    
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    
+
+
+}
+img {
+    width: 100%;
+    
+
+}
+
+h1 {
+    padding-left: 10px;
+    
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+h3 {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px;
+    padding-left: 20px;
+    font-weight: bold;
+    
+    
+    
+}
+.content {
+
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.icons {
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    color:cornflowerblue
+    
+
+}
+a :link{
+    color: blue;
+    
+}
+
+/*a:visited {
+    color: purple; /* Color para enlaces visitados */
+
+a:hover {
+    cursor: pointer;
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+}
+/*div {
+    border: 1px solid red;
+}*/
+.compartir {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    align-items: right;
+}
+.fa-heart {
+    color: red;
+
+}
+.photo {
+   width: 100%;
+   
+}
+.fa-bookmark {
+    
+}
